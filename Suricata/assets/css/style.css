@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-pink {
+    background-color: #e83e8c;
+}
+
+.navbar-brand .logo {
+    height: 53px; /* Ajusta el tamaño del logo según sea necesario */
+    margin-right: 10px;
+    margin-left: 119px;
+}
+
+.brand-text {
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.container h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    background-color: #17a2b8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-white {
+    font-size: 40px; 
+    font-weight: bold; 
+    line-height: 55px; 
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.second-footer {
+    background-color: #e83e8c;
+    text-align: center;
+    padding: 20px 0;
+    height: 184px;
+}
+
+.second-footer img {
+    width: 53px;
+    height: 100px;
+}
+
+
+.icons-section {
+    display: flex;
+    align-items: center;
+    margin-left: 100px; 
+}
+
+.icons-section i {
+    font-size: 40px;
+    margin: 0 10px;
+}
+
+@media (max-width: 576px) {
+    .icons-section {
+        display: none;
+    }
+}
